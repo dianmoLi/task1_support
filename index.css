@@ -1,0 +1,119 @@
+.support {
+	float: left;
+	width: 3em;
+	height: 5em;
+	background: #7b8bad; 
+	border: solid 0.5em #3b4f79;
+	border-radius: 0.8em;
+}
+.support:before{
+	content: "";
+    position: absolute;
+    float: left;
+    margin-left: 3em;
+    margin-top: 3em;
+    width: 5em;
+    height: 1.5em;
+    border-radius: 0em 2em 2em 50%/100%;
+    border-top: solid 0.5em transparent;
+    border-left: solid 0.5em #3b4f79;
+    border-right: solid 0.5em #3b4f79;
+    border-bottom: solid 0.5em #3b4f79;
+}
+.support:after{
+    content: "";
+    position: absolute;
+    float: left;
+    margin-left: 2em;
+    margin-top: 4em;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 2em;
+    background: white;
+}
+.line {
+    float: left;
+    width: 3em;
+    height: 1.5em;
+    margin-left: 2.2em;
+    border-radius: 0em 2em 2em 0.8em;
+    border-top: solid 0.5em #3b4f79;
+    border-left: solid 0.5em transparent;
+    border-right: solid 0.5em #3b4f79;
+    border-bottom: solid 0.5em transparent;
+}
+.line:after{
+    content: "";
+    position: absolute;
+    float: left;
+    margin-top: 0.5em;
+    margin-left: -2.6em;
+    width: 5em;
+    height: 1.5em;
+    border-radius: 0em 2em 2em 0.8em;
+    border-top: solid 0.5em transparent;
+    border-left: solid 0.5em transparent;
+    border-right: solid 0.5em #3b4f79;
+    border-bottom: solid 0.5em transparent;
+}
+.line:before{
+    content: "";
+    position: absolute;
+    float: left;
+    margin-top: 1.7em;
+    margin-left: -2.9em;
+    width: 5em;
+    height: 1.5em;
+    border-radius: 0em 2em 2em 0.8em;
+    border-top: solid 0.5em transparent;
+    border-left: solid 0.5em transparent;
+    border-right: solid 0.5em #3b4f79;
+    border-bottom: solid 0.5em transparent;
+}
+
+.circle{
+	width: 4em;
+    height: 4em;
+    float: left;
+    border-radius: 50%;
+    margin-left: -9.3em;
+    margin-top: -4em;
+    border-top: solid 0.5em transparent;
+    border-left: solid 0.5em transparent;
+    border-right: solid 0.5em #3b4f79;
+    border-bottom: solid 0.5em transparent;
+    transform: rotate(30deg);
+}
+
+.circle:before{
+    content: "";
+    position: absolute;
+    width: 1.5em;
+    height: 1.5em;
+    float: left;
+    margin-left: 3.1em;
+    margin-top: -1.4em;
+    border-radius: 1.5em;
+    background: #ffffff00;
+    border-top: solid 0.5em #3b4f79;
+    border-left: solid 0.5em #3b4f79;
+    border-right: solid 0.5em #3b4f7903;
+    border-bottom: solid 0.5em transparent;
+    transform: rotate(1deg);
+}
+.circle:after{
+	content: "";
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    float: left;
+    margin-left: 1.2em;
+    margin-top: -1.6em;
+    border-radius: 4em;
+    background: transparent;
+    border-top: solid 0.5em transparent;
+    border-left: solid 0.5em transparent;
+    border-right: solid 0.5em #3b4f79;
+    border-bottom: solid 0.5em transparent;
+    transform: rotate(-12deg);
+}
