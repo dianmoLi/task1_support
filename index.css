@@ -1,3 +1,17 @@
+.info{
+    width: 10em;
+    height: 10em;
+    margin: 0.7em 0em 0em 2.4em;
+    font-size: 9em;
+    float: left;
+    position: absolute;
+    color: #3c4f78;
+}
+.praise{
+	margin: 10em 0em 0em 10em;
+    float: left;
+    position: absolute;
+}
 .support {
 	float: left;
 	width: 3em;
@@ -32,10 +46,11 @@
     background: white;
 }
 .line {
+	position: absolute;
     float: left;
     width: 3em;
     height: 1.5em;
-    margin-left: 2.2em;
+    margin-left: 6.2em;
     border-radius: 0em 2em 2em 0.8em;
     border-top: solid 0.5em #3b4f79;
     border-left: solid 0.5em transparent;
@@ -72,11 +87,12 @@
 }
 
 .circle{
-	width: 4em;
+    position: absolute;
+    width: 4em;
     height: 4em;
     float: left;
     border-radius: 50%;
-    margin-left: -9.3em;
+    margin-left: 0.8em;
     margin-top: -4em;
     border-top: solid 0.5em transparent;
     border-left: solid 0.5em transparent;
@@ -91,7 +107,7 @@
     width: 1.5em;
     height: 1.5em;
     float: left;
-    margin-left: 3.1em;
+    margin-left: 3.21em;
     margin-top: -1.4em;
     border-radius: 1.5em;
     background: #ffffff00;
@@ -102,7 +118,7 @@
     transform: rotate(1deg);
 }
 .circle:after{
-	content: "";
+    content: "";
     position: absolute;
     width: 4em;
     height: 4em;
@@ -115,5 +131,5 @@
     border-left: solid 0.5em transparent;
     border-right: solid 0.5em #3b4f79;
     border-bottom: solid 0.5em transparent;
-    transform: rotate(-12deg);
+    transform: rotate(-15deg);
 }
